@@ -1,16 +1,36 @@
+* {margin: 0;}  /* Очень частый приём, который используется в вёрстке — выравнивание блочного элемента по центру родителя при помощи margin: 0 auto */
 html{
     background-image:url('background.png');
-    /*background-repeat: repeat;*/
+    font-family: Georgia, "Century Schoolbook L", Serif;
 }
 
-div {
-    width: 365px;
-    height: 365px; /* если высота не будет задана явна, она будет равна 100% */
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
-    
+h1 {
+    color: darkgreen;
+    margin-bottom: 3px;
 }
+
+h2 {
+    color: green;
+    margin-bottom: 10px;
+}
+
+.general {
+    width: 390px; 
+    margin: 50px auto;
+}
+p {
+    text-align: justify; 
+    margin-bottom: 10px;
+}
+
+span {
+    font-size: 120%;
+}
+
+.link {
+    text-align: center; 
+    font-size: 80%;
+    color: blue;
+}
+
+
