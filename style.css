@@ -1,0 +1,16 @@
+html{
+    background-image:url('background.png');
+    /*background-repeat: repeat;*/
+}
+
+div {
+    width: 365px;
+    height: 365px; /* если высота не будет задана явна, она будет равна 100% */
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    
+}
